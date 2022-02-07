@@ -4,6 +4,11 @@ https://www.rollingstone.com/music/music-lists/best-songs-of-all-time-1224767/
 
 <img src="https://www.rollingstone.com/wp-content/uploads/2021/09/RS_500_Great_Songs_1800x1200.jpg" width="50%">
 
+この変数がデータのすべて。
+```js
+var pmcGalleryExports = {"gallery":...
+```
+
 500, **Kanye West**, 'Stronger'  
 499, **The Supremes**, 'Baby Love'  
 498, **Townes Van Zandt**, 'Pancho and Lefty'  
