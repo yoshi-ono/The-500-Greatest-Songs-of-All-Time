@@ -18,9 +18,11 @@ for file in files:
     fp = open(file)
     songs = json.load(fp)
 
-    for song in songs["gallery"]:
-        line = f"{song['positionDisplay']}, {song['title']}"
+    for song in songs['gallery']:
+        position = song['positionDisplay']
+        title = "**" + song['title'].replace(", '", "**, '")
+        line = f"{position}, {title}"
         print(line)
-        fw.write(line + '\n')
+        fw.write(line + '  \n')
 
 fw.close()
